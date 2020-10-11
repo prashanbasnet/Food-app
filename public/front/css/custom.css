@@ -1,0 +1,35 @@
+.search-wrapper.cart-section{
+    background-image: none;
+    background-size: 0;
+    background-color: #f0f0f0 !important;
+}
+
+.cart .form-control {
+    max-width: 100px;
+}
+
+.cart .subtotal{
+    background: #f5ebea;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.cart .subtotal li {
+    margin-bottom: 10px;
+}
+
+.cart .subtotal li .left-summary {
+    float: left;
+}
+
+.cart .subtotal li .right-summary {
+    font-weight: bold;
+    color: #000;
+    float: right;
+}
+
+.cart .subtotal li::after{
+    clear: both;
+    content: '';
+    display: table;
+}
